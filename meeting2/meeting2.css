@@ -1,0 +1,61 @@
+/* External CSS */
+/* External CSS adalah style yang dipisahkan dari HTML dan ditambah di CSS. */
+/* Contoh: */
+h1 {
+    color: green
+}
+/* lalu html mendapatkan kode HTML melalui <link> */
+
+/* Contoh CSS box model */
+.first {
+    background-color:cornflowerblue;
+}
+
+.second{
+    margin: 30px;
+    background-color:cornflowerblue;
+    border: 2px solid lightgreen;
+    padding: 5px;
+}
+
+/* Simple Selector */
+/* Simple Selector terdiri dari 'element selector', 'id selector' dan 'class selector'. */
+
+/* Element Selector */
+    /* Element selector menunjuk langsung pada elemen tag, seperti tag p, h1, h2 sampai h6 dan sebagainnya */
+    /* Contoh: */
+    h2 {
+        color: blue;
+        text-align: center;
+    }
+
+/* ID selector
+    ID selector menunjuk pada atribut id yang ditambahkan pada tag. Biasanya digunakan pada sebuah element yang memiliki keunikan tersendiri. ID selector diawali dengan tanda # dan boleh diberi nama bebas tetapi tidak boleh diawali dengan angka.-->
+    Penggunaan ID selector dapat dilakukan dengan menambahkan atribut id terlebih dahulu pada tag, setelah itu panggil nama id yang dibuat sebelumnya. Ingat gunakna tanda # sebelum nama idnya ya. -->
+    Contoh: */
+#demo {
+    color: green;
+    text-align: center;
+}
+
+/* Universal Selector */
+* {
+    color: white;
+}
+
+/* Grouping Sector */
+h1, h2, h3, p {
+    color: red;
+}
+table, tr, td {
+    border: 2px;
+}
+
+/* Class Selector */
+    /* Class selector menunjuk pada atribut class yang ditambahkan pada tag. Class selecotr mirip dengan ID selector tetapi lebih fleksibel dan memiliki lebih banyak penggunaanya */
+    
+/*  Linear Gradient  */
+    /* Linear-gradient memungkinkan kamu menggunakan lebih dari 1 warna sekaligus. Pisahkan setiap warna dengan koma (,) */
+
+/* Hover */
+    /* Hover merupakan selector yang berfungsi untuk menambahkan style ketika mouse diarahkan ke suatu kolom. Hover ditambahkan setelah nama pemilih dan harus diawali dengan titik dua (Contoh : tombol:hover). */
