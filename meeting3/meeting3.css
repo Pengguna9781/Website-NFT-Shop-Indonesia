@@ -1,0 +1,26 @@
+h1 {
+    text-align: center
+}
+
+.container {
+    background-color: rgb(127, 230, 120);
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap;
+    /* justify-content: center; 
+    justify-content: space-evenly; */
+    justify-content: center;
+}
+
+.container div {
+    background-color: wheat;
+    margin: 30px;
+    padding: 35px;
+    font-size: 25px;
+}
+
+/* Berikut jenis flex-flex yang ada dalam CSS: 
+    flex-direction: column, row, column-reversed dan row-reversed.
+    flex-wrap: wrap dan nowrap.
+    justify-content: flex-start, center, flex-end, space-evenly, space-around, space-between.
+    align-items: flex-start, flex-end, stretch.

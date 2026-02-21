@@ -6,7 +6,15 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border: 20px solid goldenrod;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0.5;
 } 
+
+img:hover {
+    opacity: 1;
+}
 
 h2 {
     color: blue;
@@ -76,3 +84,52 @@ a:hover {
     background-color: burlywood;
 }
 
+.title {
+    font-style: italic;
+    color: rgb(0,0,0)
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0,0,0)
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: gold;
+}
+
+.potrait {
+    width: 260px;
+    height: 350px;
+}
+
+.landscape {
+    width: 350px;
+    height: 240px;
+}
+
+body {
+    background-image: url('BoredApes/boredApesBackground.png');
+    background-size: cover;
+}
+
+h3, p {
+    text-align: center;
+    padding: 5px;
+    color: steelblue;
+}
+
+section.cover {
+    background-image: url('BoredApes/boredApesbackground.png');
+    background-size: cover;
+}
