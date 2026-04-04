@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tab {
+    background-color: gainsboro;
+    width: 200px;
+    padding: 200px;
+    margin: 50px;
+    border-radius: 20px;
+}
+h1.name {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: black;
+}
+h2.price{
+    font-size: 38px;
+    color: black;
+}
+.list{  
+    list-style-type: disc;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.lsit li {
+    margin-top: 20px;
+    color: black;
+}
+hr {
+    height: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: rg(219, 84, 75);
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+button{
+background-color: rgba(219, 85, 75, 0.616);
+border-radius: 8px;
+color: white;
+padding: 8px;
+border: none;
+font-size: 20pt;
+}
+button:hover {
+transform: scale(1.2, 1.2);
+background-color: rgb(219, 85, 75);
+cursor: pointer;
+}
+.button-link{
+background-color: rgba(219, 85, 75, 0.616);
+border-radius: 8px;
+color: white;
+padding: 8px;
+border: none;
+font-size: 20pt;
+}
+.button-link:hover{
+transform: scale(1.2, 1.2);
+background-color: rgb(219, 85, 75);
+cursor: pointer;
+}
