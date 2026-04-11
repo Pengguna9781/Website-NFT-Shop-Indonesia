@@ -1,0 +1,43 @@
+.header-info {
+    text-align: left;
+    color: rgb(219, 84, 75);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 14-x 14px 0 14px
+}
+
+.header-info a {
+    padding: 0;
+    text-decoration: none;
+}
+.header-info a:hover {
+    background-color: transparent
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    padding: 15px;
+    float: left;
+}
+
+a:hover {
+    background-color: burlywood;
+}
+
+.title {
+    font-style: italic;
+    color: rgb(0,0,0)
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0,0,0)
+}

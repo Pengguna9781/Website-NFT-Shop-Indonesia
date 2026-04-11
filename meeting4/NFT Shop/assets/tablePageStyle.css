@@ -1,7 +1,20 @@
 table, tr, th, td {
+   
+
     border: 2px solid black;
     border-collapse: collapse;
+    margin: 14-x 14px 0 14px
+
 }
+
+.table {
+    margin-top: 50px; /* This pushes the table down from the header */
+    border-collapse: collapse;
+    width: 100%;
+    clear: both; /* Forces the table below any floated header elements */
+}
+
+
 
 .header-info {
     text-align: left;

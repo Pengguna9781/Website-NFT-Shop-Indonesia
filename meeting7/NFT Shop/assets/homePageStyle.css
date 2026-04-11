@@ -1,0 +1,208 @@
+h1, p{
+    text-align: center;
+}    
+img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 20px solid goldenrod;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0.5;
+} 
+
+img:hover {
+    opacity: 1;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+.first {
+    background-color:cornflowerblue
+}
+
+.second {
+    margin:30px;
+    background-color:cornflowerblue;
+    border: 2px solid lightgreen;
+    padding: 5px;
+}
+
+.important {
+    color: red;
+    background-color:black;
+}
+
+.fancy {
+    text-shadow: 2px 3px 3px green;
+}
+
+.main {
+    background-image: linear-gradient(rgb(197, 141, 137), rgb(252, 232, 204));
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 48px;
+}
+
+.header-info {
+    text-align: left;
+    color: rgb(219, 84, 75);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 14-x 14px 0 14px
+}
+
+.header-info a {
+    padding: 0;
+    text-decoration: none;
+}
+.header-info a:hover {
+    background-color: transparent
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    padding: 15px;
+    float: left;
+}
+
+a:hover {
+    background-color: burlywood;
+}
+
+.title {
+    font-style: italic;
+    color: rgb(0,0,0)
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0,0,0)
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: gold;
+}
+
+.potrait {
+    width: 260px;
+    height: 350px;
+}
+
+.landscape {
+    width: 350px;
+    height: 240px;
+}
+
+body {
+    background-image: url('BoredApes/boredApesBackground.png');
+    background-size: cover;
+}
+
+h3, p {
+    text-align: center;
+    padding: 5px;
+    color: steelblue;
+}
+
+section.cover {
+    background-image: url('BoredApes/boredApesbackground.png');
+    background-size: cover;
+}
+
+div.about {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: #D4AF37;
+    width: 80%;
+}
+
+.about {
+    text-align: left;
+    color: black;
+    padding: 10px;
+    width: 100%;
+}
+
+div.image-about {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+img.about-us {
+    width: 300px;
+}
+
+footer {
+    background-color: rgb(245, 235, 220);
+    background-image: linear-gradient(rgb(252, 232, 204), rgb(197, 141, 137))
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer {
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.right-footer {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.center-footer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left {
+    color: rgb(219, 84, 75);
+    text-align: left;
+    width: 100%;
+}
+
+.info-right {
+    color: rgb(219, 84, 75);
+    text-align: right;
+    width: 100%;
+}
+
+.info-center {
+    color: rgb(219, 84, 75);
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(146, 168, 133);
+}
