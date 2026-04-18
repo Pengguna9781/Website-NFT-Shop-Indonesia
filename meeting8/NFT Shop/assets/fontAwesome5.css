@@ -1,0 +1,19 @@
+.fas {
+    color: rgb(0,0,0)
+}
+
+.fab {
+    color: rgb(175, 112, 112)
+}
+
+.far {
+   color: rgb(0,0,0) 
+}
+
+*{
+    font-family: "Playfair Display";
+}
+
+a {
+    font-family: "Archivo Black";
+}
